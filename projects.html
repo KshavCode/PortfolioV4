@@ -112,15 +112,33 @@
             margin-right: 1vw;
             border-color: #0F0F0F;
             color: #01d9bc;
-            filter: grayscale(0.8);
+            filter: opacity(0.5) grayscale(0.6);
+            transition: linear 0.3s;
         }
         .card:hover {
-            filter: grayscale(0);
+            filter: opacity(1) grayscale(0);
+            transition: linear 0.3s;
             cursor: pointer;
 
         }
+        .card-title {
+          font-family: 'Oswald', sans-serif;
+          letter-spacing: 0.1vw;
+          color: #7fc9c0;
+        }
+        .card-text {
+          text-align: justify;
+          font-family: 'Roboto Slab', sans-serif;
+        }
         .card-body {
             background-color: #1b1d1e;
+        }
+        .linkstxt {
+          color: white;
+          text-decoration: none;
+        }
+        .linkstxt:hover {
+          text-decoration: 0.2vw underline #01baa1;
         }
 
         
@@ -142,33 +160,33 @@
         <div class="card">
           <img src="images/p2.jpg" class="card-img-top photos" alt="projectimg">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <h5 class="card-title">2 Player Snakes Game</h5>
+            <p class="card-text">Created using Pygame and Pillow package. It is a basic game based on the idea of 'slither.io'. Player 2 will play using WASD and Player 1 with Arrow Keys. </p>
+            <p class="card-text"><small class="text-body-secondary"><a href="" class="linkstxt">SOURCE CODE</a></small></p>
           </div>
         </div>
         <div class="card">
           <img src="images/p19.jpg" class="card-img-top photos" alt="projectimg">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <h5 class="card-title">Profile System 1</h5>
+            <p class="card-text">This project uses JSON, Pillow and requests like packages to initialize a database, where a person can store their info along with their dp and a wallpaper.It also creates an ID card of that person based on their details.</p>
+            <p class="card-text"><small class="text-body-secondary"><a href="" class="linkstxt">SOURCE CODE</a></small></p>
           </div>
         </div>
         <div class="card">
           <img src="images/p1.jpg" class="card-img-top photos" alt="projectimg">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <h5 class="card-title">Astronomy Webpage</h5>
+            <p class="card-text">A basic webpage created in order to learn how to design and enhance the webpage. It can be used to learn more about CSS and it's different properties.</p>
+            <p class="card-text"><small class="text-body-secondary"><a href="" class="linkstxt">SOURCE CODE</a></small></p>
           </div>
         </div>
         <div class="card">
           <img src="images/p20.jpg" class="card-img-top photos" alt="projectimg">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <h5 class="card-title">Profile System 2</h5>
+            <p class="card-text">Same project as PS1 but it's actually created using the Pandas library and uses a csv file in order to store a person's data. This was my first project for Pandas</p>
+            <p class="card-text"><small class="text-body-secondary"><a href="" class="linkstxt">SOURCE CODE</a></small></p>
           </div>
         </div>
     </div>
@@ -177,33 +195,33 @@
         <div class="card">
           <img src="images/p21.jpg" class="card-img-top photos" alt="projectimg">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <h5 class="card-title">Headphones Webpage</h5>
+            <p class="card-text">This is just a basic home page project, in order to learn about using gradients and different colors to enhance the basic home pages.</p>
+            <p class="card-text"><small class="text-body-secondary"><a href="" class="linkstxt">SOURCE CODE</a></small></p>
           </div>
         </div>
         <div class="card">
           <img src="images/p17.jpg" class="card-img-top photos" alt="projectimg">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <h5 class="card-title">Robot</h5>
+            <p class="card-text">Most favorite project, it has many commands. Lines of code cross 1500 lines easily but it's really worth it as you learn a lot of things from such projects. Uses Dispy</p>
+            <p class="card-text"><small class="text-body-secondary"><a href="" class="linkstxt">SOURCE CODE</a></small></p>
           </div>
         </div>
         <div class="card">
           <img src="images/p3.jpg" class="card-img-top photos" alt="projectimg">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <h5 class="card-title">Weather App</h5>
+            <p class="card-text">Project uses Tkinter and requests module to gather information about weather status using API. First project for the requests module. It's a GUI based app, but not 100% reliable.</p>
+            <p class="card-text"><small class="text-body-secondary"><a href="" class="linkstxt">SOURCE CODE</a></small></p>
           </div>
         </div>
         <div class="card">
           <img src="images/p4.jpg" class="card-img-top photos" alt="projectimg">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <h5 class="card-title">Hangman</h5>
+            <p class="card-text">A basic project to learn about different fields in which python can be used. It uses lists and 'random' module. A list is provided for different word lengths, from 4 to 7.</p>
+            <p class="card-text"><small class="text-body-secondary"><a href="" class="linkstxt">SOURCE CODE</a></small></p>
           </div>
         </div>
     </div>
@@ -212,9 +230,9 @@
         <div class="card">
           <img src="images/p16.jpg" class="card-img-top photos" alt="projectimg">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <h5 class="card-title">Password Generator</h5>
+            <p class="card-text">GUI based app created using random and tkinter package. It creates unique combination of symbols, alphabets and numbers. It even gives you a button to copy automatically to your clipboard. Generates 4-20 length password.</p>
+            <p class="card-text"><small class="text-body-secondary"><a href="" class="linkstxt">SOURCE CODE</a></small></p>
           </div>
         </div>
         <div class="card">
@@ -222,7 +240,7 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <p class="card-text"><small class="text-body-secondary"><a href="" class="linkstxt">SOURCE CODE</a></small></p>
           </div>
         </div>
         <div class="card">
@@ -230,7 +248,7 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <p class="card-text"><small class="text-body-secondary"><a href="" class="linkstxt">SOURCE CODE</a></small></p>
           </div>
         </div>
         <div class="card">
@@ -238,7 +256,7 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <p class="card-text"><small class="text-body-secondary"><a href="" class="linkstxt">SOURCE CODE</a></small></p>
           </div>
         </div>
     </div>
@@ -249,7 +267,7 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <p class="card-text"><small class="text-body-secondary"><a href="" class="linkstxt">SOURCE CODE</a></small></p>
           </div>
         </div>
         <div class="card">
@@ -257,7 +275,7 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <p class="card-text"><small class="text-body-secondary"><a href="" class="linkstxt">SOURCE CODE</a></small></p>
           </div>
         </div>
         <div class="card">
@@ -265,7 +283,7 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <p class="card-text"><small class="text-body-secondary"><a href="" class="linkstxt">SOURCE CODE</a></small></p>
           </div>
         </div>
         <div class="card">
@@ -273,7 +291,7 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <p class="card-text"><small class="text-body-secondary"><a href="" class="linkstxt">SOURCE CODE</a></small></p>
           </div>
         </div>
     </div>
@@ -284,7 +302,7 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <p class="card-text"><small class="text-body-secondary"><a href="" class="linkstxt">SOURCE CODE</a></small></p>
           </div>
         </div>
         <div class="card">
@@ -292,7 +310,7 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <p class="card-text"><small class="text-body-secondary"><a href="" class="linkstxt">SOURCE CODE</a></small></p>
           </div>
         </div>
         <div class="card">
@@ -300,7 +318,7 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <p class="card-text"><small class="text-body-secondary"><a href="" class="linkstxt">SOURCE CODE</a></small></p>
           </div>
         </div>
         <div class="card">
@@ -308,7 +326,7 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <p class="card-text"><small class="text-body-secondary"><a href="" class="linkstxt">SOURCE CODE</a></small></p>
           </div>
         </div>
     </div>
@@ -318,17 +336,17 @@
 
     <br>
     <br>
-      <div class="end">
-        <p id="endtxt">CONTACT ME : </p>
-        <a href="https://github.com/KshavCode" target="_blank"><img src="images/icon1.png" alt="icons" class="icons"></a>
-        <a href="" target="_blank"><img src="images/icon2.png" alt="icons" class="icons"></a>
-        <a href="" target="_blank"><img src="images/icon3.png" alt="icons" class="icons"></a>
-      </div>
-      <div class="end2">
-        <a href="" target="_blank" class="ref">Portfolio Version 1</a></p>
-        <a href="" target="_blank" class="ref">Portfolio Version 2</a></p>
-        <a href="" target="_blank" class="ref">Portfolio Version 3</a>
-      </div>
+    <div class="end">
+      <p id="endtxt">CONTACT ME : </p>
+      <a href="https://github.com/KshavCode" target="_blank"><img src="images/icon1.png" alt="icons" class="icons"></a>
+      <a href="" target="_blank"><img src="images/icon2.png" alt="icons" class="icons"></a>
+      <a href="" target="_blank"><img src="images/icon3.png" alt="icons" class="icons"></a>
+    </div>
+    <div class="end2">
+      <a href="" target="_blank" class="ref">Portfolio Version 1</a></p>
+      <a href="" target="_blank" class="ref">Portfolio Version 2</a></p>
+      <a href="" target="_blank" class="ref">Portfolio Version 3</a>
+    </div>
 
 
 
