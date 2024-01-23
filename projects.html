@@ -63,7 +63,7 @@
         }
 
         .icons {
-          width: 5.5vw;
+          width: 6vw;
           margin-left: 2vw;
           transition: linear 0.15s;
           filter: grayscale(0.7)
@@ -90,7 +90,7 @@
           background-color: #121314;
           height: 5vw;
           font-family: "Oswald", sans-serif;
-          font-size: 2vw;
+          font-size: 2.5vw;
           display: flex;
           justify-content: space-evenly;
         }
@@ -147,6 +147,45 @@
           font-size: 1.5vw;
           color: #01d9bc;
         }
+
+        @media screen and (max-width:768px) {
+          .navlinks {
+            font-size: 2.5vw;
+          }
+          #endtxt, .icons {
+            filter: grayscale(0);
+            font-size: 4vw;
+          }
+          .icons {
+            width: 7.5vw;
+          }
+          .ref {
+            font-size: 3vw;
+          }
+
+          .card {
+            font-size: 1.6vw;
+            filter: grayscale(0);
+            opacity: 0.8;
+          }
+        }
+        @media screen and (max-width: 425px) {
+          .navlinks {
+            font-size: 4vw;
+          }
+          .ref {
+            font-size: 3.5vw;
+          }
+
+          #endtxt {
+            font-size: 5vw;
+            margin-top: 2vw;
+          }
+          .icons {
+            width: 11vw;
+            margin-bottom: 1vw;
+          }
+        }
         
     </style>
 
@@ -178,7 +217,7 @@
           <img src="images/p19.jpg" class="card-img-top photos" alt="projectimg">
           <div class="card-body">
             <h5 class="card-title">Profile System 1</h5>
-            <p class="card-text">This project uses JSON, Pillow and requests like packages to initialize a database, where a person can store their info along with their dp and a wallpaper.It also creates an ID card of that person based on their details.</p>
+            <p class="card-text">This project uses JSON, Pillow and requests like packages to initialize a database, where a person can store their info along with their dp and a wallpaper. It also creates an ID card of that person based on their details.</p>
             <p class="card-text"><small class="text-body-secondary"><a href="https://github.com/KshavCode/ProfileSystem-JSON" class="linkstxt" target="_blank">SOURCE CODE</a></small></p>
           </div>
         </div>
