@@ -108,9 +108,11 @@
         }
 
         .mus {
-          display: flex; 
-          justify-content: space-around; 
-          align-items: center; 
+          display: grid; 
+          grid-template-columns: auto auto auto;
+        }
+
+        audio {
           margin-bottom: 4vw;
         }
 
@@ -128,6 +130,14 @@
           color: white;
           margin: 2vw;
         }
+
+        .add {
+          font-size: 1.7vw;
+          margin: 2vw;
+          color: #01d9bc;
+          font-family: Verdana, sans-serif;
+          text-align: justify;
+        }
         @media screen and (max-width:768px) {
           .navlinks {
             font-size: 2.5vw;
@@ -142,11 +152,19 @@
           .ref {
             font-size: 3vw;
           }
-
-          .card {
-            font-size: 1.6vw;
-            filter: grayscale(0);
-            opacity: 0.8;
+          .mus {
+            grid-template-columns: auto auto;
+          }
+          .def {
+            font-size: 2.5vw;
+          }
+          #info {
+            font-size: 3vw;
+            margin: 3vw;
+          }
+          .add {
+            font-size: 3vw;
+            margin: 3vw;
           }
         }
         @media screen and (max-width: 425px) {
@@ -156,7 +174,6 @@
           .ref {
             font-size: 3.5vw;
           }
-
           #endtxt {
             font-size: 5vw;
             margin-top: 2vw;
@@ -164,6 +181,23 @@
           .icons {
             width: 11vw;
             margin-bottom: 1vw;
+          }
+          .mus {
+            grid-template-columns: auto;
+          }
+          .def {
+            font-size: 5vw;
+          }
+          #info {
+            font-size: 5vw;
+            margin: 5vw;
+          }
+          audio {
+            margin-bottom: 10vw;
+          }
+          .add {
+            font-size: 4vw;
+            margin: 4vw;
           }
         }
         
@@ -185,8 +219,10 @@
     <br>
     <p id="info">WARNING : Please lower the volume before listening as these tracks were created in different timelines, thus not having suitable volumes. Thank you and enjoy!</p>
     <br>
+    <p class="add">All the music tracks are available for download. Kindly read the warning above before exploring below. Also, these are just few number of tracks which I have posted here. I have almost 60 tracks (as of 24 Jan 2024) and will continue to make it. Thanks for visiting this page, now you can continue!</p>
     <br>
-    <div class="mus">
+    <br>  
+    <div class="mus container">
       <div>
         <p class="def">2019 a1</p>
         <audio controls>
@@ -195,7 +231,7 @@
         </audio>
       </div>
       <div>
-        <p class="def">2019 a2 Christmas</p>
+        <p class="def">2019 a2 (Christmas)</p>
         <audio controls>
           <source src="music/2019 a2.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
@@ -208,8 +244,6 @@
         Your browser does not support the audio element.
         </audio>
       </div>
-    </div>
-    <div class="mus">
       <div>
         <p class="def">2021 a2</p>
         <audio controls>
@@ -231,10 +265,8 @@
         Your browser does not support the audio element.
         </audio>
       </div>
-    </div>
-    <div class="mus">
       <div>
-        <p class="def">2022 a2 (Christmas)</p>
+        <p class="def">2022 a2 (Christmas+Halloween)</p>
         <audio controls>
           <source src="music/2022 a2 christmas.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
@@ -254,8 +286,6 @@
         Your browser does not support the audio element.
         </audio>
       </div>
-    </div>
-    <div class="mus">
       <div>
         <p class="def">2022 a2 (Extra Version)</p>
         <audio controls>
@@ -277,8 +307,6 @@
         Your browser does not support the audio element.
         </audio>
       </div>
-    </div>
-    <div class="mus">
       <div>
         <p class="def">2022 a6</p>
         <audio controls>
@@ -300,8 +328,6 @@
         Your browser does not support the audio element.
         </audio>
       </div>
-    </div>
-    <div class="mus">
       <div>
         <p class="def">2023 a2</p>
         <audio controls>
@@ -323,8 +349,6 @@
         Your browser does not support the audio element.
         </audio>
       </div>
-    </div>
-    <div class="mus">
       <div>
         <p class="def">2023 a4</p>
         <audio controls>
@@ -346,8 +370,6 @@
         Your browser does not support the audio element.
         </audio>
       </div>
-    </div>
-    <div class="mus">
       <div>
         <p class="def">2023 a7</p>
         <audio controls>
@@ -369,8 +391,6 @@
         Your browser does not support the audio element.
         </audio>
       </div>
-    </div>
-    <div class="mus">
       <div>
         <p class="def">Game V2 menu</p>
         <audio controls>
@@ -400,6 +420,9 @@
         </audio>
       </div>
     </div>
+    <p class="add">Creating music is just one of my hobbies and I have been active in production since 2019. During 2019, I was keen in finding information about music production, so I used to search apps on mobile and played drum pads, etc. Then in 2020, I had to quit many of my hobbies because of studies. Eventually, I lost interest in music. 
+    In 2021, due to special reasons, I found music production interesting and started developing music but this time on Studio (talking about apps). I used samples, loops and various instruments to master my skills. I am still beginner in this field, and I just enjoy being in this field. Fast forward to 2024, I am able to play instruments, create my own rhythms and implement effects more accurately. There's a small chance that I will quit music again, so before doing that, I will learn as much as possible!
+    </p>
 
 
     <br>
